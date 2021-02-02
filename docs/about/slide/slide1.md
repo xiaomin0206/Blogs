@@ -1,0 +1,1 @@
+<animateonA  :list="$site.pages"/>

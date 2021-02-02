@@ -1,0 +1,1 @@
+<plugIn  :list="$site.pages"/>

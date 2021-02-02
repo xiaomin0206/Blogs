@@ -1,0 +1,1 @@
+<cont  :list="$site.pages"/>
