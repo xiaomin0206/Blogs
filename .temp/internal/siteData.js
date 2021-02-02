@@ -16,6 +16,16 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-12b4a961",
+      "path": "/"
+    },
+    {
       "frontmatter": {},
       "regularPath": "/about/",
       "relativePath": "about/index.md",
@@ -24,17 +34,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/about/slide/slide2.html",
-      "relativePath": "about/slide/slide2.md",
-      "key": "v-67d6422c",
-      "path": "/about/slide/slide2.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/about/slide/slide1.html",
       "relativePath": "about/slide/slide1.md",
       "key": "v-4ce20228",
       "path": "/about/slide/slide1.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/about/slide/slide2.html",
+      "relativePath": "about/slide/slide2.md",
+      "key": "v-67d6422c",
+      "path": "/about/slide/slide2.html"
     },
     {
       "title": "深入理解 JavaScript 原型22",
@@ -121,22 +131,11 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-12b4a961",
-      "path": "/"
-    },
-    {
-      "title": "我是其他1",
       "frontmatter": {},
-      "regularPath": "/blog/other/other1.html",
-      "relativePath": "blog/other/other1.md",
-      "key": "v-2c29b554",
-      "path": "/blog/other/other1.html"
+      "regularPath": "/about/slide/slide3.html",
+      "relativePath": "about/slide/slide3.md",
+      "key": "v-82ca8230",
+      "path": "/about/slide/slide3.html"
     },
     {
       "title": "深入理解 JavaScript 原型",
@@ -223,11 +222,12 @@ export const siteData = {
       ]
     },
     {
+      "title": "我是其他1",
       "frontmatter": {},
-      "regularPath": "/about/slide/slide3.html",
-      "relativePath": "about/slide/slide3.md",
-      "key": "v-82ca8230",
-      "path": "/about/slide/slide3.html"
+      "regularPath": "/blog/other/other1.html",
+      "relativePath": "blog/other/other1.md",
+      "key": "v-2c29b554",
+      "path": "/blog/other/other1.html"
     },
     {
       "title": "深入理解 JavaScript 原型",

@@ -1,1 +1,0 @@
-<other  :list="$site.pages"/>
