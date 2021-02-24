@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>我是其他1 | zz</title>
+    <title>变量和遍历 | zz</title>
     <meta name="generator" content="VuePress 1.8.0">
     <link rel="icon" href="/Blogs/favicon.ico">
     <meta name="description" content="">
     
-    <link rel="preload" href="/Blogs/assets/css/0.styles.d98cff45.css" as="style"><link rel="preload" href="/Blogs/assets/js/app.8be27ad0.js" as="script"><link rel="preload" href="/Blogs/assets/js/2.93dd961a.js" as="script"><link rel="preload" href="/Blogs/assets/js/20.b5846eee.js" as="script"><link rel="prefetch" href="/Blogs/assets/js/10.1ef27a14.js"><link rel="prefetch" href="/Blogs/assets/js/11.8f32e328.js"><link rel="prefetch" href="/Blogs/assets/js/12.42d32616.js"><link rel="prefetch" href="/Blogs/assets/js/13.39ae70f4.js"><link rel="prefetch" href="/Blogs/assets/js/14.fa80ed19.js"><link rel="prefetch" href="/Blogs/assets/js/15.e314e72c.js"><link rel="prefetch" href="/Blogs/assets/js/16.5c207618.js"><link rel="prefetch" href="/Blogs/assets/js/17.04007c5e.js"><link rel="prefetch" href="/Blogs/assets/js/18.5091bd89.js"><link rel="prefetch" href="/Blogs/assets/js/19.65686c20.js"><link rel="prefetch" href="/Blogs/assets/js/21.98d6b3b6.js"><link rel="prefetch" href="/Blogs/assets/js/22.9b8b662b.js"><link rel="prefetch" href="/Blogs/assets/js/3.2ed11767.js"><link rel="prefetch" href="/Blogs/assets/js/4.bc8694eb.js"><link rel="prefetch" href="/Blogs/assets/js/5.440b811d.js"><link rel="prefetch" href="/Blogs/assets/js/6.cba05d43.js"><link rel="prefetch" href="/Blogs/assets/js/7.365959b2.js"><link rel="prefetch" href="/Blogs/assets/js/8.f82d51f7.js"><link rel="prefetch" href="/Blogs/assets/js/9.286f73b6.js">
-    <link rel="stylesheet" href="/Blogs/assets/css/0.styles.d98cff45.css">
+    <link rel="preload" href="/Blogs/assets/css/0.styles.ab03d8e2.css" as="style"><link rel="preload" href="/Blogs/assets/js/app.5772ee9f.js" as="script"><link rel="preload" href="/Blogs/assets/js/2.827cb911.js" as="script"><link rel="preload" href="/Blogs/assets/js/21.49030b9d.js" as="script"><link rel="prefetch" href="/Blogs/assets/js/10.1ef27a14.js"><link rel="prefetch" href="/Blogs/assets/js/11.8f32e328.js"><link rel="prefetch" href="/Blogs/assets/js/12.f2a61d02.js"><link rel="prefetch" href="/Blogs/assets/js/13.f8981dd4.js"><link rel="prefetch" href="/Blogs/assets/js/14.f046b7ae.js"><link rel="prefetch" href="/Blogs/assets/js/15.8f7b2623.js"><link rel="prefetch" href="/Blogs/assets/js/16.8f5d568e.js"><link rel="prefetch" href="/Blogs/assets/js/17.2f360b49.js"><link rel="prefetch" href="/Blogs/assets/js/18.0efd7db1.js"><link rel="prefetch" href="/Blogs/assets/js/19.fb62ae4b.js"><link rel="prefetch" href="/Blogs/assets/js/20.d5e5478b.js"><link rel="prefetch" href="/Blogs/assets/js/22.676f1037.js"><link rel="prefetch" href="/Blogs/assets/js/23.06d79a84.js"><link rel="prefetch" href="/Blogs/assets/js/24.fa752fff.js"><link rel="prefetch" href="/Blogs/assets/js/25.55472615.js"><link rel="prefetch" href="/Blogs/assets/js/3.3025c078.js"><link rel="prefetch" href="/Blogs/assets/js/4.295b21f8.js"><link rel="prefetch" href="/Blogs/assets/js/5.440b811d.js"><link rel="prefetch" href="/Blogs/assets/js/6.9e5ce70c.js"><link rel="prefetch" href="/Blogs/assets/js/7.53d8d023.js"><link rel="prefetch" href="/Blogs/assets/js/8.251448bf.js"><link rel="prefetch" href="/Blogs/assets/js/9.286f73b6.js">
+    <link rel="stylesheet" href="/Blogs/assets/css/0.styles.ab03d8e2.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Blogs/" class="home-link router-link-active"><!----> <span class="site-name">zz</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Blogs/" class="nav-link">
@@ -24,7 +24,55 @@
   About
 </a></div><div class="nav-item"><a href="/Blogs/mine/index.html" class="nav-link">
   Mine
-</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="我是其他1"><a href="#我是其他1" class="header-anchor">#</a> 我是其他1</h1></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
-    <script src="/Blogs/assets/js/app.8be27ad0.js" defer></script><script src="/Blogs/assets/js/2.93dd961a.js" defer></script><script src="/Blogs/assets/js/20.b5846eee.js" defer></script>
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="变量和遍历"><a href="#变量和遍历" class="header-anchor">#</a> 变量和遍历</h1> <div class="language- extra-class"><pre class="language-text"><code>var name='福布斯',years='2020'
+console.log(`您好，今年是 ${ name } 发布 ${ years + 1} 周年`)
+console.log('您好，今年是'+` ${ name } `+'发布'+` ${ years + 1} `+'周年')
+</code></pre></div><h2 id="for-of-允许你遍历-arrays-数组-strings-字符串-maps-映射-sets-集合-等可迭代的数据结构等"><a href="#for-of-允许你遍历-arrays-数组-strings-字符串-maps-映射-sets-集合-等可迭代的数据结构等" class="header-anchor">#</a> for...of 允许你遍历 Arrays（数组）, Strings（字符串）, Maps（映射）, Sets（集合）等可迭代的数据结构等</h2> <div class="language- extra-class"><pre class="language-text"><code>let someArray = [1, &quot;string&quot;, false];
+ 
+for (let entry of someArray) {
+    console.log(entry); // 1, &quot;string&quot;, false
+}
+</code></pre></div><h2 id="for-in-数组-对象"><a href="#for-in-数组-对象" class="header-anchor">#</a> for...in(数组,对象)</h2> <div class="language- extra-class"><pre class="language-text"><code>
+
+var arr=[{name:'张三'},{name:'李四'}];
+var obj={name:'张三'};
+for (var i in arr){
+	console.log(i)
+}
+for (var i in obj){
+	console.log(i)
+}
+
+for (var i of arr){
+	console.log(i)
+}
+///////////0  1  name  {name:'张三'}  {name:'李四'}
+</code></pre></div><h2 id="foreach"><a href="#foreach" class="header-anchor">#</a> forEach</h2> <div class="language- extra-class"><pre class="language-text"><code>let list = [4, 5, 6];
+list.forEach((val, idx, array) =&gt; {
+    // val: 当前值
+    // idx：当前index
+    // array: Array
+});
+</code></pre></div><p><strong>1. forEach() 用于遍历数组无返回值，会改变原来数组中的值</strong></p> <div class="language- extra-class"><pre class="language-text"><code>let arr = [1, 3, 12, 2, 20, -1, 6, 17];
+arr.forEach((item, index, array) =&gt; {
+    array[index] = item * 2;
+});
+console.log(arr);					//	[2, 6, 24, 4, 40, -2, 12, 34]
+</code></pre></div><p><strong>2. map() 用于遍历数组，返回处理之后的新数组</strong></p> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 3, 12, 2, 20, -1, 6, 17];
+const newArr = arr.map((item, index, array) =&gt; item * 2);
+console.log(arr);					//	[1, 3, 12, 2, 20, -1, 6, 17]
+console.log(newArr);					//	[2, 6, 24, 4, 40, -2, 12, 34]
+</code></pre></div><p><strong>3. filter() 用于筛选数组中满足条件的元素，返回一个筛选后的新数组</strong></p> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 3, 12, 2, 20, -1, 6, 17];
+const newArr = arr.filter((item, index, array) =&gt; item &lt; 5);
+console.log(arr);					//	[1, 3, 12, 2, 20, -1, 6, 17]
+console.log(newArr);					//	[1, 3, 2, -1]
+</code></pre></div><p><strong>4. every() 用于判断数组中的每一项元素是否都满足条件，返回一个布尔值</strong></p> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 3, 12, 2, 20, -1, 6, 17];
+const bool = arr.every((item, index, array) =&gt; item &lt; 12);
+console.log(bool);					//	false
+</code></pre></div><p><strong>5. some() 用于判断数组中是否存在满足条件的元素，返回一个布尔值</strong></p> <div class="language- extra-class"><pre class="language-text"><code>const arr = [1, 3, 12, 2, 20, -1, 6, 17];
+const bool = arr.some((item, index, array) =&gt; item &lt; 12);
+console.log(bool);					//	true
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/Blogs/assets/js/app.5772ee9f.js" defer></script><script src="/Blogs/assets/js/2.827cb911.js" defer></script><script src="/Blogs/assets/js/21.49030b9d.js" defer></script>
   </body>
 </html>
