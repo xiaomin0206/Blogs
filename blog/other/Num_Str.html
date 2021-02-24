@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>number和String的知识点 | zz</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/Blogs/favicon.ico">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/Blogs/assets/css/0.styles.ea8bdd51.css" as="style"><link rel="preload" href="/Blogs/assets/js/app.35261fb1.js" as="script"><link rel="preload" href="/Blogs/assets/js/2.827cb911.js" as="script"><link rel="preload" href="/Blogs/assets/js/20.bee67d7d.js" as="script"><link rel="prefetch" href="/Blogs/assets/js/10.1ef27a14.js"><link rel="prefetch" href="/Blogs/assets/js/11.8f32e328.js"><link rel="prefetch" href="/Blogs/assets/js/12.f2a61d02.js"><link rel="prefetch" href="/Blogs/assets/js/13.f8981dd4.js"><link rel="prefetch" href="/Blogs/assets/js/14.c0ed2a37.js"><link rel="prefetch" href="/Blogs/assets/js/15.e314e72c.js"><link rel="prefetch" href="/Blogs/assets/js/16.8f5d568e.js"><link rel="prefetch" href="/Blogs/assets/js/17.04007c5e.js"><link rel="prefetch" href="/Blogs/assets/js/18.4dfea8ca.js"><link rel="prefetch" href="/Blogs/assets/js/19.c5ff68a9.js"><link rel="prefetch" href="/Blogs/assets/js/21.49030b9d.js"><link rel="prefetch" href="/Blogs/assets/js/22.b154cf37.js"><link rel="prefetch" href="/Blogs/assets/js/23.fc8fd212.js"><link rel="prefetch" href="/Blogs/assets/js/24.b17334bb.js"><link rel="prefetch" href="/Blogs/assets/js/25.c7483182.js"><link rel="prefetch" href="/Blogs/assets/js/3.b448a338.js"><link rel="prefetch" href="/Blogs/assets/js/4.295b21f8.js"><link rel="prefetch" href="/Blogs/assets/js/5.440b811d.js"><link rel="prefetch" href="/Blogs/assets/js/6.9e5ce70c.js"><link rel="prefetch" href="/Blogs/assets/js/7.53d8d023.js"><link rel="prefetch" href="/Blogs/assets/js/8.251448bf.js"><link rel="prefetch" href="/Blogs/assets/js/9.286f73b6.js">
+    <link rel="stylesheet" href="/Blogs/assets/css/0.styles.ea8bdd51.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Blogs/" class="home-link router-link-active"><!----> <span class="site-name">zz</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Blogs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/Blogs/about/index.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="/Blogs/mine/index.html" class="nav-link">
+  Mine
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Blogs/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><a href="/Blogs/about/index.html" class="nav-link">
+  About
+</a></div><div class="nav-item"><a href="/Blogs/mine/index.html" class="nav-link">
+  Mine
+</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="number的对象方法"><a href="#number的对象方法" class="header-anchor">#</a> Number的对象方法</h1> <h3 id="_1-tofixed-把数字转换为字符串-并对小数点指定位数。"><a href="#_1-tofixed-把数字转换为字符串-并对小数点指定位数。" class="header-anchor">#</a> 1. toFixed()(把数字转换为字符串，并对小数点指定位数。)</h3> <div class="language- extra-class"><pre class="language-text"><code>var num3 = 177.234 
+console.log(num3.toFixed())    177(其typeof为字符串)
+</code></pre></div><h3 id="_2-toprecision-把数字格式化为指定的长度"><a href="#_2-toprecision-把数字格式化为指定的长度" class="header-anchor">#</a> 2. toPrecision()(把数字格式化为指定的长度)</h3> <div class="language- extra-class"><pre class="language-text"><code>var num = new Number(7.123456); 
+console.log(num.toPrecision());  // 输出：7.123456 
+console.log(num.toPrecision(1)); // 输出：7
+console.log(num.toPrecision(2)); // 输出：7.1
+</code></pre></div><h3 id="_3-tostring-把数字转换为字符串"><a href="#_3-tostring-把数字转换为字符串" class="header-anchor">#</a> 3. toString()(把数字转换为字符串)</h3> <h1 id="string的对象方法"><a href="#string的对象方法" class="header-anchor">#</a> String的对象方法</h1> <h3 id="_1-charat-返回在指定位置的字符串"><a href="#_1-charat-返回在指定位置的字符串" class="header-anchor">#</a> 1. charAt()(返回在指定位置的字符串)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str = new String(&quot;RUNOOB&quot;); 
+console.log(&quot;str.charAt(0) 为:&quot; + str.charAt(0)); // R
+</code></pre></div><h3 id="_2-concat-连接两个或更多字符串-并返回新的字符串"><a href="#_2-concat-连接两个或更多字符串-并返回新的字符串" class="header-anchor">#</a> 2.concat()(连接两个或更多字符串，并返回新的字符串)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str='name',str1='张三'
+console.log(str.concat(str1))
+</code></pre></div><h3 id="_3-indexof-返回某个指定的字符串值在字符串中首次出现的位置-不存在则为-1"><a href="#_3-indexof-返回某个指定的字符串值在字符串中首次出现的位置-不存在则为-1" class="header-anchor">#</a> 3. indexOf()(返回某个指定的字符串值在字符串中首次出现的位置,不存在则为-1)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str1 = new String( &quot;RUNOOB&quot; ); 
+
+var index = str1.indexOf( &quot;OO&quot; ); 
+console.log(&quot;查找的字符串位置 :&quot; + index );  // 3
+</code></pre></div><h3 id="_4-lastindexof-从后向前搜索字符串-并从起始位置-0-开始计算返回字符串最后出现的位置。"><a href="#_4-lastindexof-从后向前搜索字符串-并从起始位置-0-开始计算返回字符串最后出现的位置。" class="header-anchor">#</a> 4. lastIndexOf()(从后向前搜索字符串，并从起始位置（0）开始计算返回字符串最后出现的位置。)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str='this is one one ne'
+console.log(str.lastIndexOf('one'))   12
+</code></pre></div><h3 id="_5-localecompare-用本地特定的顺序来比较两个字符串-如果str1大于index-返回大于0的数-小于的话返回小于0的数-相等的话返回等于0的数"><a href="#_5-localecompare-用本地特定的顺序来比较两个字符串-如果str1大于index-返回大于0的数-小于的话返回小于0的数-相等的话返回等于0的数" class="header-anchor">#</a> 5. localeCompare()(用本地特定的顺序来比较两个字符串,如果str1大于index,返回大于0的数，小于的话返回小于0的数，相等的话返回等于0的数)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str1 = new String( &quot;This is beautiful string&quot; );
+  
+var index = str1.localeCompare( &quot;This is beautiful string&quot;);  
+
+console.log(&quot;localeCompare first :&quot; + index );  // 0
+</code></pre></div><h3 id="_6-match-查找找到一个或多个正则表达式的匹配"><a href="#_6-match-查找找到一个或多个正则表达式的匹配" class="header-anchor">#</a> 6. match()(查找找到一个或多个正则表达式的匹配)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str=&quot;The rain in SPAIN stays mainly in the plain&quot;; 
+var n=str.match(/ain/g);  // ain,ain,ain
+console.log(n) ////[&quot;ain&quot;, &quot;ain&quot;, &quot;ain&quot;]
+</code></pre></div><h3 id="_7-slice-start-end-数组截取-返回新的数组-不改变原数组-start为负数-从后面算起-end为非必填-不包含此下标的值"><a href="#_7-slice-start-end-数组截取-返回新的数组-不改变原数组-start为负数-从后面算起-end为非必填-不包含此下标的值" class="header-anchor">#</a> 7. slice(start，end)(数组截取，返回新的数组，不改变原数组，start为负数，从后面算起，end为非必填，不包含此下标的值)</h3> <div class="language- extra-class"><pre class="language-text"><code>var arr=['测试','测试1','测试2']
+console.log(arr.slice(1),arr.slice(1,2),arr,arr.slice(-1))//////[&quot;测试1&quot;, &quot;测试2&quot;] [&quot;测试1&quot;] [&quot;测试&quot;, &quot;测试1&quot;, &quot;测试2&quot;]   [&quot;测试2&quot;]
+</code></pre></div><h3 id="_8-substr-start-length-字符串截取-返回新的字符串-不改变原字符串-length为非必填-为长度"><a href="#_8-substr-start-length-字符串截取-返回新的字符串-不改变原字符串-length为非必填-为长度" class="header-anchor">#</a> 8. substr(start，length)(字符串截取，返回新的字符串，不改变原字符串，length为非必填，为长度)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str=&quot;Hello world!&quot;
+console.log(str.substr(3,6),str.substr(3),str)///////lo wor lo world! Hello world!
+</code></pre></div><h3 id="_9-substring-start-end-字符串截取-返回新的数组-不改变原数组-start为非负的整数-end为非必填-不包含此下标的值"><a href="#_9-substring-start-end-字符串截取-返回新的数组-不改变原数组-start为非负的整数-end为非必填-不包含此下标的值" class="header-anchor">#</a> 9. substring(start，end)(字符串截取，返回新的数组，不改变原数组，start为非负的整数，end为非必填，不包含此下标的值)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str = &quot;RUNOOB GOOGLE TAOBAO FACEBOOK&quot;; 
+console.log(str.substring(1,2),str); //////RU RUNOOB GOOGLE TAOBAO FACEBOOK
+</code></pre></div><h3 id="_10-split-separator-howmany-字符串成为数组-separator正则-howmany为长度-不改变原字符串"><a href="#_10-split-separator-howmany-字符串成为数组-separator正则-howmany为长度-不改变原字符串" class="header-anchor">#</a> 10. split(separator,howmany)(字符串成为数组，separator正则，howmany为长度,不改变原字符串)</h3> <div class="language- extra-class"><pre class="language-text"><code>var str=&quot;How are you doing today?&quot;
+console.log(str.split(&quot; &quot;,3),str,str.split(&quot; &quot;))////[&quot;How&quot;, &quot;are&quot;, &quot;you&quot;] &quot;How are you doing today?&quot; (5) [&quot;How&quot;, &quot;are&quot;, &quot;you&quot;, &quot;doing&quot;, &quot;today?&quot;]
+</code></pre></div><h3 id="_10-splice-index-length-数组删除-改变原数组"><a href="#_10-splice-index-length-数组删除-改变原数组" class="header-anchor">#</a> 10. splice(index,length)(数组删除，改变原数组)</h3> <div class="language- extra-class"><pre class="language-text"><code>var arra=['测试一','测试二','测试三']
+console.log(arra.splice(1,2),arra)//// [&quot;测试二&quot;, &quot;测试三&quot;] [&quot;测试一&quot;]
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/Blogs/assets/js/app.35261fb1.js" defer></script><script src="/Blogs/assets/js/2.827cb911.js" defer></script><script src="/Blogs/assets/js/20.bee67d7d.js" defer></script>
+  </body>
+</html>
