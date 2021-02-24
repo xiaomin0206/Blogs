@@ -16,25 +16,42 @@ export const siteData = {
   ],
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/about/",
-      "relativePath": "about/index.md",
-      "key": "v-3fe3e586",
-      "path": "/about/"
+      "title": "Home",
+      "frontmatter": {
+        "home": true
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-14b99c1f",
+      "path": "/"
     },
     {
       "frontmatter": {},
-      "regularPath": "/about/slide/slide2.html",
-      "relativePath": "about/slide/slide2.md",
-      "key": "v-67d6422c",
-      "path": "/about/slide/slide2.html"
+      "regularPath": "/about/",
+      "relativePath": "about/index.md",
+      "key": "v-378c7008",
+      "path": "/about/"
     },
     {
       "frontmatter": {},
       "regularPath": "/about/slide/slide1.html",
       "relativePath": "about/slide/slide1.md",
-      "key": "v-4ce20228",
+      "key": "v-f97eb924",
       "path": "/about/slide/slide1.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/about/slide/slide2.html",
+      "relativePath": "about/slide/slide2.md",
+      "key": "v-75c6836c",
+      "path": "/about/slide/slide2.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/about/slide/slide3.html",
+      "relativePath": "about/slide/slide3.md",
+      "key": "v-684c636a",
+      "path": "/about/slide/slide3.html"
     },
     {
       "title": "深入理解 JavaScript 原型22",
@@ -50,7 +67,7 @@ export const siteData = {
       },
       "regularPath": "/blog/Animate/animate1.html",
       "relativePath": "blog/Animate/animate1.md",
-      "key": "v-6c6c6654",
+      "key": "v-af85bd54",
       "path": "/blog/Animate/animate1.html",
       "headers": [
         {
@@ -121,24 +138,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-12b4a961",
-      "path": "/"
-    },
-    {
-      "title": "我是其他1",
-      "frontmatter": {},
-      "regularPath": "/blog/other/other1.html",
-      "relativePath": "blog/other/other1.md",
-      "key": "v-2c29b554",
-      "path": "/blog/other/other1.html"
-    },
-    {
       "title": "深入理解 JavaScript 原型",
       "frontmatter": {
         "title": "深入理解 JavaScript 原型",
@@ -152,7 +151,7 @@ export const siteData = {
       },
       "regularPath": "/blog/Animate/animate2.html",
       "relativePath": "blog/Animate/animate2.md",
-      "key": "v-f9ebf198",
+      "key": "v-824a7b94",
       "path": "/blog/Animate/animate2.html",
       "headers": [
         {
@@ -223,11 +222,68 @@ export const siteData = {
       ]
     },
     {
+      "title": "typescript",
+      "frontmatter": {
+        "title": "typescript",
+        "date": "2020-02-24T00:00:00.000Z",
+        "type": 3,
+        "blog": true,
+        "tags": [
+          "typescript"
+        ]
+      },
+      "regularPath": "/blog/other/typescript.html",
+      "relativePath": "blog/other/typescript.md",
+      "key": "v-50716356",
+      "path": "/blog/other/typescript.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "在vue3里安装typescript",
+          "slug": "在vue3里安装typescript"
+        }
+      ]
+    },
+    {
+      "title": "变量和遍历",
+      "frontmatter": {
+        "title": "变量和遍历",
+        "date": "2020-02-21T00:00:00.000Z",
+        "type": 3,
+        "blog": true,
+        "excerpt": "原型，作为前端开发者，或多或少都有听说。你可能一直想了解它，但是由于各种原因还没有了解，现在就跟随我来一起探索它吧。本文将由浅入深，一点一点揭开 JavaScript 原型的神秘面纱。（需要了解基本的 JavaScript 对象知识）",
+        "tags": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blog/other/other1.html",
+      "relativePath": "blog/other/other1.md",
+      "key": "v-40c2db54",
+      "path": "/blog/other/other1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "for...of 允许你遍历 Arrays（数组）, Strings（字符串）, Maps（映射）, Sets（集合）等可迭代的数据结构等",
+          "slug": "for-of-允许你遍历-arrays-数组-strings-字符串-maps-映射-sets-集合-等可迭代的数据结构等"
+        },
+        {
+          "level": 2,
+          "title": "for...in(数组,对象)",
+          "slug": "for-in-数组-对象"
+        },
+        {
+          "level": 2,
+          "title": "forEach",
+          "slug": "foreach"
+        }
+      ]
+    },
+    {
       "frontmatter": {},
-      "regularPath": "/about/slide/slide3.html",
-      "relativePath": "about/slide/slide3.md",
-      "key": "v-82ca8230",
-      "path": "/about/slide/slide3.html"
+      "regularPath": "/mine/",
+      "relativePath": "mine/index.md",
+      "key": "v-cf75edfc",
+      "path": "/mine/"
     },
     {
       "title": "深入理解 JavaScript 原型",
@@ -243,7 +299,7 @@ export const siteData = {
       },
       "regularPath": "/blog/plugIn/plugIn1.html",
       "relativePath": "blog/plugIn/plugIn1.md",
-      "key": "v-7127585a",
+      "key": "v-7501e45c",
       "path": "/blog/plugIn/plugIn1.html",
       "headers": [
         {
@@ -314,11 +370,120 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/mine/",
-      "relativePath": "mine/index.md",
-      "key": "v-4b507400",
-      "path": "/mine/"
+      "title": "markdown",
+      "frontmatter": {
+        "title": "markdown",
+        "date": "2020-02-21T00:00:00.000Z",
+        "type": 3,
+        "blog": true,
+        "tags": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blog/other/other2.html",
+      "relativePath": "blog/other/other2.md",
+      "key": "v-1aa47bb6",
+      "path": "/blog/other/other2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "二级标题",
+          "slug": "二级标题"
+        },
+        {
+          "level": 3,
+          "title": "三级标题",
+          "slug": "三级标题"
+        }
+      ]
+    },
+    {
+      "title": "number和String的知识点",
+      "frontmatter": {
+        "title": "number和String的知识点",
+        "date": "2020-02-22T00:00:00.000Z",
+        "type": 3,
+        "blog": true,
+        "tags": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blog/other/Num_Str.html",
+      "relativePath": "blog/other/Num_Str.md",
+      "key": "v-16f9ceca",
+      "path": "/blog/other/Num_Str.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1. toFixed()(把数字转换为字符串，并对小数点指定位数。)",
+          "slug": "_1-tofixed-把数字转换为字符串-并对小数点指定位数。"
+        },
+        {
+          "level": 3,
+          "title": "2. toPrecision()(把数字格式化为指定的长度)",
+          "slug": "_2-toprecision-把数字格式化为指定的长度"
+        },
+        {
+          "level": 3,
+          "title": "3. toString()(把数字转换为字符串)",
+          "slug": "_3-tostring-把数字转换为字符串"
+        },
+        {
+          "level": 3,
+          "title": "1. charAt()(返回在指定位置的字符串)",
+          "slug": "_1-charat-返回在指定位置的字符串"
+        },
+        {
+          "level": 3,
+          "title": "2.concat()(连接两个或更多字符串，并返回新的字符串)",
+          "slug": "_2-concat-连接两个或更多字符串-并返回新的字符串"
+        },
+        {
+          "level": 3,
+          "title": "3. indexOf()(返回某个指定的字符串值在字符串中首次出现的位置,不存在则为-1)",
+          "slug": "_3-indexof-返回某个指定的字符串值在字符串中首次出现的位置-不存在则为-1"
+        },
+        {
+          "level": 3,
+          "title": "4. lastIndexOf()(从后向前搜索字符串，并从起始位置（0）开始计算返回字符串最后出现的位置。)",
+          "slug": "_4-lastindexof-从后向前搜索字符串-并从起始位置-0-开始计算返回字符串最后出现的位置。"
+        },
+        {
+          "level": 3,
+          "title": "5. localeCompare()(用本地特定的顺序来比较两个字符串,如果str1大于index,返回大于0的数，小于的话返回小于0的数，相等的话返回等于0的数)",
+          "slug": "_5-localecompare-用本地特定的顺序来比较两个字符串-如果str1大于index-返回大于0的数-小于的话返回小于0的数-相等的话返回等于0的数"
+        },
+        {
+          "level": 3,
+          "title": "6. match()(查找找到一个或多个正则表达式的匹配)",
+          "slug": "_6-match-查找找到一个或多个正则表达式的匹配"
+        },
+        {
+          "level": 3,
+          "title": "7. slice(start，end)(数组截取，返回新的数组，不改变原数组，start为负数，从后面算起，end为非必填，不包含此下标的值)",
+          "slug": "_7-slice-start-end-数组截取-返回新的数组-不改变原数组-start为负数-从后面算起-end为非必填-不包含此下标的值"
+        },
+        {
+          "level": 3,
+          "title": "8. substr(start，length)(字符串截取，返回新的字符串，不改变原字符串，length为非必填，为长度)",
+          "slug": "_8-substr-start-length-字符串截取-返回新的字符串-不改变原字符串-length为非必填-为长度"
+        },
+        {
+          "level": 3,
+          "title": "9. substring(start，end)(字符串截取，返回新的数组，不改变原数组，start为非负的整数，end为非必填，不包含此下标的值)",
+          "slug": "_9-substring-start-end-字符串截取-返回新的数组-不改变原数组-start为非负的整数-end为非必填-不包含此下标的值"
+        },
+        {
+          "level": 3,
+          "title": "10. split(separator,howmany)(字符串成为数组，separator正则，howmany为长度,不改变原字符串)",
+          "slug": "_10-split-separator-howmany-字符串成为数组-separator正则-howmany为长度-不改变原字符串"
+        },
+        {
+          "level": 3,
+          "title": "10. splice(index,length)(数组删除，改变原数组)",
+          "slug": "_10-splice-index-length-数组删除-改变原数组"
+        }
+      ]
     }
   ],
   "themeConfig": {
