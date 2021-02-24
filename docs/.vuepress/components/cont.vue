@@ -80,7 +80,7 @@
 			}
 		},
 		created(){
-			sessionStorage.getItem('activeIndex')?this.activeIndex=sessionStorage.getItem('activeIndex'):this.activeIndex=0
+			// sessionStorage.getItem('activeIndex')?this.activeIndex=sessionStorage.getItem('activeIndex'):this.activeIndex=0
 			// this.list.forEach((item,index)=>{
 			// 	if(item.path.indexOf('/blog/Animate') > -1){
 			// 		this.listData.push(item)
@@ -91,7 +91,7 @@
 		},
 		methods:{
 			changeFun(index){
-				sessionStorage.setItem('activeIndex',index)
+				// sessionStorage.setItem('activeIndex',index)
 				this.activeIndex=index
 				this.init(index)
 				this.$forceUpdate()
