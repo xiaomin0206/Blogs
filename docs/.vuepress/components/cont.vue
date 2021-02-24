@@ -17,7 +17,7 @@
 		<div class="cont_wrap_right">
 			<ul>
 				<li v-for="(item,index) in listData" v-if="index%2==0">
-					<a :href="item.path"
+					<a :href="'/Blogs'+item.path"
 					   class="blog-post__link">
 						<div>
 							<img src="../../assets/img/time.png" alt="">
@@ -80,7 +80,7 @@
 			}
 		},
 		created(){
-			// sessionStorage.getItem('activeIndex')?this.activeIndex=sessionStorage.getItem('activeIndex'):this.activeIndex=0
+			// window.sessionStorage.getItem('activeIndex')?this.activeIndex=window.sessionStorage.getItem('activeIndex'):this.activeIndex=0
 			// this.list.forEach((item,index)=>{
 			// 	if(item.path.indexOf('/blog/Animate') > -1){
 			// 		this.listData.push(item)
@@ -91,7 +91,7 @@
 		},
 		methods:{
 			changeFun(index){
-				// sessionStorage.setItem('activeIndex',index)
+				// window.sessionStorage.setItem('activeIndex',index)
 				this.activeIndex=index
 				this.init(index)
 				this.$forceUpdate()
@@ -109,6 +109,7 @@
 				this.list.forEach((item,index)=>{
 					if(item.path.indexOf(value) > -1){
 						this.listData.push(item)
+						console.log(this.listData,item,'22222')
 					}
 				})
 			}

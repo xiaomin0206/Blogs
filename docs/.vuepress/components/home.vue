@@ -1,7 +1,7 @@
 <template>
 	<div class="homeStyle">
 		<div class="wrap">
-			<a href="/about/">
+			<a href="/Blogs/about/">
 				<img src="../../assets/img/image.jpg" alt="">
 			</a>
 			<!-- <div>记录点滴</div> -->

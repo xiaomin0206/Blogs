@@ -9,18 +9,6 @@ import GlobalLayout from "E:\\文档\\Blogs\\node_modules\\@vuepress\\core\\lib\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-378c7008",
-    path: "/about/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-378c7008").then(next)
-    },
-  },
-  {
-    path: "/about/index.html",
-    redirect: "/about/"
-  },
-  {
     name: "v-14b99c1f",
     path: "/",
     component: GlobalLayout,
@@ -31,6 +19,18 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-378c7008",
+    path: "/about/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-378c7008").then(next)
+    },
+  },
+  {
+    path: "/about/index.html",
+    redirect: "/about/"
   },
   {
     name: "v-f97eb924",
@@ -49,11 +49,11 @@ export const routes = [
     },
   },
   {
-    name: "v-824a7b94",
-    path: "/blog/Animate/animate2.html",
+    name: "v-af85bd54",
+    path: "/blog/Animate/animate1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-824a7b94").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-af85bd54").then(next)
     },
   },
   {
@@ -65,27 +65,19 @@ export const routes = [
     },
   },
   {
+    name: "v-824a7b94",
+    path: "/blog/Animate/animate2.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-824a7b94").then(next)
+    },
+  },
+  {
     name: "v-16f9ceca",
     path: "/blog/other/Num_Str.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-16f9ceca").then(next)
-    },
-  },
-  {
-    name: "v-af85bd54",
-    path: "/blog/Animate/animate1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-af85bd54").then(next)
-    },
-  },
-  {
-    name: "v-1aa47bb6",
-    path: "/blog/other/other2.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1aa47bb6").then(next)
     },
   },
   {
@@ -97,11 +89,27 @@ export const routes = [
     },
   },
   {
+    name: "v-1aa47bb6",
+    path: "/blog/other/other2.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1aa47bb6").then(next)
+    },
+  },
+  {
     name: "v-50716356",
     path: "/blog/other/typescript.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-50716356").then(next)
+    },
+  },
+  {
+    name: "v-7501e45c",
+    path: "/blog/plugIn/plugIn1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7501e45c").then(next)
     },
   },
   {
@@ -115,14 +123,6 @@ export const routes = [
   {
     path: "/mine/index.html",
     redirect: "/mine/"
-  },
-  {
-    name: "v-7501e45c",
-    path: "/blog/plugIn/plugIn1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7501e45c").then(next)
-    },
   },
   {
     path: '*',
