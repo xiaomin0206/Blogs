@@ -2,7 +2,7 @@
 	<div class="cont_wrap">
 		<div>
 			<div class="cont_wrap_img">
-				<a href="/">
+				<a href="/Blogs">
 					<img src="../../assets/img/image.jpg" alt="">
 				</a>
 				<div>zz</div>
@@ -16,9 +16,9 @@
 		</div>
 		<div class="cont_wrap_right">
 			<ul>
-				<li v-for="(item,index) in listData" v-if="index%2==0">
+				<li v-for="(item,index) in listData" >
 					<a :href="'/Blogs'+item.path"
-					   class="blog-post__link">
+					   class="blog-post__link" v-if="index%2==0">
 						<div>
 							<img src="../../assets/img/time.png" alt="">
 							<span>{{item.frontmatter.date?item.frontmatter.date.slice(0,10):''}}</span>
@@ -28,16 +28,14 @@
 							<span>{{item.frontmatter.title}}</span>
 						</div>
 					</a>
-					<div>
+					<div v-if="index%2==0">
 						<img src="../public/bgH.jpg" alt="">
 					</div>
-				</li>
-				<li v-for="(item,index) in listData" v-if="index%2!=0">
-					<div>
+					<div v-if="index%2!=0">
 						<img src="../public/bgH.jpg" alt="">
 					</div>
-					<a :href="item.path"
-					   class="blog-post__link">
+					<a :href="'/Blogs'+item.path"
+					   class="blog-post__link" v-if="index%2!=0">
 						<div>
 							<img src="../../assets/img/time.png" alt="">
 							<span>{{item.frontmatter.date}}</span>
@@ -47,8 +45,11 @@
 							<span>{{item.frontmatter.title}}</span>
 						</div>
 					</a>
-					
 				</li>
+				<!-- <li v-for="(item,index) in listData" v-if="index%2!=0">
+					
+					
+				</li> -->
 			</ul>
 		</div>
 		
@@ -79,19 +80,22 @@
 				activeIndex:0
 			}
 		},
-		created(){
-			// window.sessionStorage.getItem('activeIndex')?this.activeIndex=window.sessionStorage.getItem('activeIndex'):this.activeIndex=0
+		mounted(){
+			sessionStorage.getItem('activeIndex')?this.activeIndex=window.sessionStorage.getItem('activeIndex'):this.activeIndex=0
 			// this.list.forEach((item,index)=>{
 			// 	if(item.path.indexOf('/blog/Animate') > -1){
 			// 		this.listData.push(item)
 			// 	}
 			// })
 			this.init(this.activeIndex)
-			
 		},
+		// created(){
+			
+			
+		// },
 		methods:{
 			changeFun(index){
-				// window.sessionStorage.setItem('activeIndex',index)
+				sessionStorage.setItem('activeIndex',index)
 				this.activeIndex=index
 				this.init(index)
 				this.$forceUpdate()
@@ -162,6 +166,12 @@
 		transform: scale(1.2);
 		transition: all 2s;
 	}
+	.cont_wrap_right{
+		height: calc(100vh - 150px);
+		overflow-y: scroll;
+		padding: 20px;
+		box-sizing: border-box;
+	}
 	.cont_wrap_right ul li{
 		list-style: none;
 		display: flex;
@@ -202,6 +212,7 @@
 	}
 	.cont_wrap_right ul li>div img{
 		width: 100%;
+		height: 100%;
 	}
 	.cont_wrap_right ul li>div img:hover{
 		transform: scale(1.2);

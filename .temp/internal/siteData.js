@@ -34,192 +34,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/about/slide/slide1.html",
-      "relativePath": "about/slide/slide1.md",
-      "key": "v-f97eb924",
-      "path": "/about/slide/slide1.html"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/about/slide/slide2.html",
       "relativePath": "about/slide/slide2.md",
       "key": "v-75c6836c",
       "path": "/about/slide/slide2.html"
     },
     {
-      "title": "深入理解 JavaScript 原型22",
-      "frontmatter": {
-        "title": "深入理解 JavaScript 原型22",
-        "date": "2017-11-14T00:00:00.000Z",
-        "type": 2,
-        "blog": true,
-        "excerpt": "原型，作为前端开发者，或多或少都有听说。你可能一直想了解它，但是由于各种原因还没有了解，现在就跟随我来一起探索它吧。本文将由浅入深，一点一点揭开 JavaScript 原型的神秘面纱。（需要了解基本的 JavaScript 对象知识）",
-        "tags": [
-          "JavaScript"
-        ]
-      },
-      "regularPath": "/blog/Animate/animate1.html",
-      "relativePath": "blog/Animate/animate1.md",
-      "key": "v-af85bd54",
-      "path": "/blog/Animate/animate1.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原型",
-          "slug": "原型"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型是什么？",
-          "slug": "_1-原型是什么"
-        },
-        {
-          "level": 3,
-          "title": "2. constructor 与 [[Prototype]]",
-          "slug": "_2-constructor-与-prototype"
-        },
-        {
-          "level": 3,
-          "title": "3. 对象实例与原型",
-          "slug": "_3-对象实例与原型"
-        },
-        {
-          "level": 2,
-          "title": "原型链",
-          "slug": "原型链"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型的原型",
-          "slug": "_1-原型的原型"
-        },
-        {
-          "level": 3,
-          "title": "2. 原型链",
-          "slug": "_2-原型链"
-        },
-        {
-          "level": 2,
-          "title": "继承",
-          "slug": "继承"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型链实现",
-          "slug": "_1-原型链实现"
-        },
-        {
-          "level": 3,
-          "title": "2. 借用构造函数",
-          "slug": "_2-借用构造函数"
-        },
-        {
-          "level": 3,
-          "title": "3. 组合继承",
-          "slug": "_3-组合继承"
-        },
-        {
-          "level": 3,
-          "title": "4. 寄生组合式继承",
-          "slug": "_4-寄生组合式继承"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ]
-    },
-    {
       "frontmatter": {},
-      "regularPath": "/about/slide/slide3.html",
-      "relativePath": "about/slide/slide3.md",
-      "key": "v-684c636a",
-      "path": "/about/slide/slide3.html"
-    },
-    {
-      "title": "深入理解 JavaScript 原型",
-      "frontmatter": {
-        "title": "深入理解 JavaScript 原型",
-        "date": "2017-11-14T00:00:00.000Z",
-        "type": 2,
-        "blog": true,
-        "excerpt": "原型，作为前端开发者，或多或少都有听说。你可能一直想了解它，但是由于各种原因还没有了解，现在就跟随我来一起探索它吧。本文将由浅入深，一点一点揭开 JavaScript 原型的神秘面纱。（需要了解基本的 JavaScript 对象知识）",
-        "tags": [
-          "JavaScript"
-        ]
-      },
-      "regularPath": "/blog/Animate/animate2.html",
-      "relativePath": "blog/Animate/animate2.md",
-      "key": "v-824a7b94",
-      "path": "/blog/Animate/animate2.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原型",
-          "slug": "原型"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型是什么？",
-          "slug": "_1-原型是什么"
-        },
-        {
-          "level": 3,
-          "title": "2. constructor 与 [[Prototype]]",
-          "slug": "_2-constructor-与-prototype"
-        },
-        {
-          "level": 3,
-          "title": "3. 对象实例与原型",
-          "slug": "_3-对象实例与原型"
-        },
-        {
-          "level": 2,
-          "title": "原型链",
-          "slug": "原型链"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型的原型",
-          "slug": "_1-原型的原型"
-        },
-        {
-          "level": 3,
-          "title": "2. 原型链",
-          "slug": "_2-原型链"
-        },
-        {
-          "level": 2,
-          "title": "继承",
-          "slug": "继承"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型链实现",
-          "slug": "_1-原型链实现"
-        },
-        {
-          "level": 3,
-          "title": "2. 借用构造函数",
-          "slug": "_2-借用构造函数"
-        },
-        {
-          "level": 3,
-          "title": "3. 组合继承",
-          "slug": "_3-组合继承"
-        },
-        {
-          "level": 3,
-          "title": "4. 寄生组合式继承",
-          "slug": "_4-寄生组合式继承"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
-        }
-      ]
+      "regularPath": "/about/slide/slide1.html",
+      "relativePath": "about/slide/slide1.md",
+      "key": "v-f97eb924",
+      "path": "/about/slide/slide1.html"
     },
     {
       "title": "number和String的知识点",
@@ -310,6 +135,97 @@ export const siteData = {
       ]
     },
     {
+      "title": "深入理解 JavaScript 原型",
+      "frontmatter": {
+        "title": "深入理解 JavaScript 原型",
+        "date": "2017-11-14T00:00:00.000Z",
+        "type": 2,
+        "blog": true,
+        "excerpt": "原型，作为前端开发者，或多或少都有听说。你可能一直想了解它，但是由于各种原因还没有了解，现在就跟随我来一起探索它吧。本文将由浅入深，一点一点揭开 JavaScript 原型的神秘面纱。（需要了解基本的 JavaScript 对象知识）",
+        "tags": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blog/Animate/animate2.html",
+      "relativePath": "blog/Animate/animate2.md",
+      "key": "v-824a7b94",
+      "path": "/blog/Animate/animate2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原型",
+          "slug": "原型"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型是什么？",
+          "slug": "_1-原型是什么"
+        },
+        {
+          "level": 3,
+          "title": "2. constructor 与 [[Prototype]]",
+          "slug": "_2-constructor-与-prototype"
+        },
+        {
+          "level": 3,
+          "title": "3. 对象实例与原型",
+          "slug": "_3-对象实例与原型"
+        },
+        {
+          "level": 2,
+          "title": "原型链",
+          "slug": "原型链"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型的原型",
+          "slug": "_1-原型的原型"
+        },
+        {
+          "level": 3,
+          "title": "2. 原型链",
+          "slug": "_2-原型链"
+        },
+        {
+          "level": 2,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型链实现",
+          "slug": "_1-原型链实现"
+        },
+        {
+          "level": 3,
+          "title": "2. 借用构造函数",
+          "slug": "_2-借用构造函数"
+        },
+        {
+          "level": 3,
+          "title": "3. 组合继承",
+          "slug": "_3-组合继承"
+        },
+        {
+          "level": 3,
+          "title": "4. 寄生组合式继承",
+          "slug": "_4-寄生组合式继承"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/about/slide/slide3.html",
+      "relativePath": "about/slide/slide3.md",
+      "key": "v-684c636a",
+      "path": "/about/slide/slide3.html"
+    },
+    {
       "title": "变量和遍历",
       "frontmatter": {
         "title": "变量和遍历",
@@ -372,6 +288,34 @@ export const siteData = {
       ]
     },
     {
+      "title": "vuepress的创建项目和git上线",
+      "frontmatter": {
+        "title": "vuepress的创建项目和git上线",
+        "date": "2020-02-24T00:00:00.000Z",
+        "type": 3,
+        "blog": true,
+        "tags": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blog/other/vuepress_git.html",
+      "relativePath": "blog/other/vuepress_git.md",
+      "key": "v-61abe1f6",
+      "path": "/blog/other/vuepress_git.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "博客的应用（vuepress,markdown）",
+          "slug": "博客的应用-vuepress-markdown"
+        },
+        {
+          "level": 3,
+          "title": "链接",
+          "slug": "链接"
+        }
+      ]
+    },
+    {
       "title": "typescript",
       "frontmatter": {
         "title": "typescript",
@@ -389,8 +333,8 @@ export const siteData = {
       "headers": [
         {
           "level": 2,
-          "title": "在vue3里安装typescript",
-          "slug": "在vue3里安装typescript"
+          "title": "在vue3里安装typescript(zhihui--->test--->ts)",
+          "slug": "在vue3里安装typescript-zhihui-test-ts"
         }
       ]
     },
@@ -484,6 +428,90 @@ export const siteData = {
       "relativePath": "mine/index.md",
       "key": "v-cf75edfc",
       "path": "/mine/"
+    },
+    {
+      "title": "深入理解 JavaScript 原型22",
+      "frontmatter": {
+        "title": "深入理解 JavaScript 原型22",
+        "date": "2017-11-14T00:00:00.000Z",
+        "type": 2,
+        "blog": true,
+        "excerpt": "原型，作为前端开发者，或多或少都有听说。你可能一直想了解它，但是由于各种原因还没有了解，现在就跟随我来一起探索它吧。本文将由浅入深，一点一点揭开 JavaScript 原型的神秘面纱。（需要了解基本的 JavaScript 对象知识）",
+        "tags": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blog/Animate/animate1.html",
+      "relativePath": "blog/Animate/animate1.md",
+      "key": "v-af85bd54",
+      "path": "/blog/Animate/animate1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原型",
+          "slug": "原型"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型是什么？",
+          "slug": "_1-原型是什么"
+        },
+        {
+          "level": 3,
+          "title": "2. constructor 与 [[Prototype]]",
+          "slug": "_2-constructor-与-prototype"
+        },
+        {
+          "level": 3,
+          "title": "3. 对象实例与原型",
+          "slug": "_3-对象实例与原型"
+        },
+        {
+          "level": 2,
+          "title": "原型链",
+          "slug": "原型链"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型的原型",
+          "slug": "_1-原型的原型"
+        },
+        {
+          "level": 3,
+          "title": "2. 原型链",
+          "slug": "_2-原型链"
+        },
+        {
+          "level": 2,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型链实现",
+          "slug": "_1-原型链实现"
+        },
+        {
+          "level": 3,
+          "title": "2. 借用构造函数",
+          "slug": "_2-借用构造函数"
+        },
+        {
+          "level": 3,
+          "title": "3. 组合继承",
+          "slug": "_3-组合继承"
+        },
+        {
+          "level": 3,
+          "title": "4. 寄生组合式继承",
+          "slug": "_4-寄生组合式继承"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ]
     }
   ],
   "themeConfig": {

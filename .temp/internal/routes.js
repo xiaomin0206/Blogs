@@ -33,14 +33,6 @@ export const routes = [
     redirect: "/about/"
   },
   {
-    name: "v-f97eb924",
-    path: "/about/slide/slide1.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f97eb924").then(next)
-    },
-  },
-  {
     name: "v-75c6836c",
     path: "/about/slide/slide2.html",
     component: GlobalLayout,
@@ -49,19 +41,19 @@ export const routes = [
     },
   },
   {
-    name: "v-af85bd54",
-    path: "/blog/Animate/animate1.html",
+    name: "v-f97eb924",
+    path: "/about/slide/slide1.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-af85bd54").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-f97eb924").then(next)
     },
   },
   {
-    name: "v-684c636a",
-    path: "/about/slide/slide3.html",
+    name: "v-16f9ceca",
+    path: "/blog/other/Num_Str.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-684c636a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-16f9ceca").then(next)
     },
   },
   {
@@ -73,11 +65,11 @@ export const routes = [
     },
   },
   {
-    name: "v-16f9ceca",
-    path: "/blog/other/Num_Str.html",
+    name: "v-684c636a",
+    path: "/about/slide/slide3.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-16f9ceca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-684c636a").then(next)
     },
   },
   {
@@ -94,6 +86,14 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1aa47bb6").then(next)
+    },
+  },
+  {
+    name: "v-61abe1f6",
+    path: "/blog/other/vuepress_git.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-61abe1f6").then(next)
     },
   },
   {
@@ -123,6 +123,14 @@ export const routes = [
   {
     path: "/mine/index.html",
     redirect: "/mine/"
+  },
+  {
+    name: "v-af85bd54",
+    path: "/blog/Animate/animate1.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-af85bd54").then(next)
+    },
   },
   {
     path: '*',
