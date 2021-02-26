@@ -16,6 +16,13 @@ export const siteData = {
   ],
   "pages": [
     {
+      "frontmatter": {},
+      "regularPath": "/about/",
+      "relativePath": "about/index.md",
+      "key": "v-378c7008",
+      "path": "/about/"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true
@@ -27,10 +34,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/about/",
-      "relativePath": "about/index.md",
-      "key": "v-378c7008",
-      "path": "/about/"
+      "regularPath": "/about/slide/slide1.html",
+      "relativePath": "about/slide/slide1.md",
+      "key": "v-f97eb924",
+      "path": "/about/slide/slide1.html"
     },
     {
       "frontmatter": {},
@@ -41,10 +48,94 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/about/slide/slide1.html",
-      "relativePath": "about/slide/slide1.md",
-      "key": "v-f97eb924",
-      "path": "/about/slide/slide1.html"
+      "regularPath": "/about/slide/slide3.html",
+      "relativePath": "about/slide/slide3.md",
+      "key": "v-684c636a",
+      "path": "/about/slide/slide3.html"
+    },
+    {
+      "title": "深入理解 JavaScript 原型22",
+      "frontmatter": {
+        "title": "深入理解 JavaScript 原型22",
+        "date": "2017-11-14T00:00:00.000Z",
+        "type": 2,
+        "blog": true,
+        "excerpt": "原型，作为前端开发者，或多或少都有听说。你可能一直想了解它，但是由于各种原因还没有了解，现在就跟随我来一起探索它吧。本文将由浅入深，一点一点揭开 JavaScript 原型的神秘面纱。（需要了解基本的 JavaScript 对象知识）",
+        "tags": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blog/Animate/animate1.html",
+      "relativePath": "blog/Animate/animate1.md",
+      "key": "v-af85bd54",
+      "path": "/blog/Animate/animate1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "原型",
+          "slug": "原型"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型是什么？",
+          "slug": "_1-原型是什么"
+        },
+        {
+          "level": 3,
+          "title": "2. constructor 与 [[Prototype]]",
+          "slug": "_2-constructor-与-prototype"
+        },
+        {
+          "level": 3,
+          "title": "3. 对象实例与原型",
+          "slug": "_3-对象实例与原型"
+        },
+        {
+          "level": 2,
+          "title": "原型链",
+          "slug": "原型链"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型的原型",
+          "slug": "_1-原型的原型"
+        },
+        {
+          "level": 3,
+          "title": "2. 原型链",
+          "slug": "_2-原型链"
+        },
+        {
+          "level": 2,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 3,
+          "title": "1. 原型链实现",
+          "slug": "_1-原型链实现"
+        },
+        {
+          "level": 3,
+          "title": "2. 借用构造函数",
+          "slug": "_2-借用构造函数"
+        },
+        {
+          "level": 3,
+          "title": "3. 组合继承",
+          "slug": "_3-组合继承"
+        },
+        {
+          "level": 3,
+          "title": "4. 寄生组合式继承",
+          "slug": "_4-寄生组合式继承"
+        },
+        {
+          "level": 3,
+          "title": "参考",
+          "slug": "参考"
+        }
+      ]
     },
     {
       "title": "number和String的知识点",
@@ -219,13 +310,6 @@ export const siteData = {
       ]
     },
     {
-      "frontmatter": {},
-      "regularPath": "/about/slide/slide3.html",
-      "relativePath": "about/slide/slide3.md",
-      "key": "v-684c636a",
-      "path": "/about/slide/slide3.html"
-    },
-    {
       "title": "变量和遍历",
       "frontmatter": {
         "title": "变量和遍历",
@@ -237,10 +321,10 @@ export const siteData = {
           "JavaScript"
         ]
       },
-      "regularPath": "/blog/other/other1.html",
-      "relativePath": "blog/other/other1.md",
-      "key": "v-40c2db54",
-      "path": "/blog/other/other1.html",
+      "regularPath": "/blog/other/forEach.html",
+      "relativePath": "blog/other/forEach.md",
+      "key": "v-56e8ed66",
+      "path": "/blog/other/forEach.html",
       "headers": [
         {
           "level": 2,
@@ -270,10 +354,10 @@ export const siteData = {
           "JavaScript"
         ]
       },
-      "regularPath": "/blog/other/other2.html",
-      "relativePath": "blog/other/other2.md",
-      "key": "v-1aa47bb6",
-      "path": "/blog/other/other2.html",
+      "regularPath": "/blog/other/markdown.html",
+      "relativePath": "blog/other/markdown.md",
+      "key": "v-1dbe16d6",
+      "path": "/blog/other/markdown.html",
       "headers": [
         {
           "level": 2,
@@ -284,6 +368,34 @@ export const siteData = {
           "level": 3,
           "title": "三级标题",
           "slug": "三级标题"
+        }
+      ]
+    },
+    {
+      "title": "uni-app的微信小程序",
+      "frontmatter": {
+        "title": "uni-app的微信小程序",
+        "date": "2020-02-26T00:00:00.000Z",
+        "type": 3,
+        "blog": true,
+        "tags": [
+          "typescript"
+        ]
+      },
+      "regularPath": "/blog/other/uni_app.html",
+      "relativePath": "blog/other/uni_app.md",
+      "key": "v-77b0ad96",
+      "path": "/blog/other/uni_app.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "ui组件colorUI（https://blog.csdn.net/qq_40976321/article/details/104824097）（也可以和uView）",
+          "slug": "ui组件colorui-https-blog-csdn-net-qq-40976321-article-details-104824097-也可以和uview"
+        },
+        {
+          "level": 3,
+          "title": "uni-app在创建的时候可以选择（建议1或者3，1没有多余的组件，需要什么引入什么）uni-app",
+          "slug": "uni-app在创建的时候可以选择-建议1或者3-1没有多余的组件-需要什么引入什么-uni-app"
         }
       ]
     },
@@ -312,29 +424,6 @@ export const siteData = {
           "level": 3,
           "title": "链接",
           "slug": "链接"
-        }
-      ]
-    },
-    {
-      "title": "typescript",
-      "frontmatter": {
-        "title": "typescript",
-        "date": "2020-02-24T00:00:00.000Z",
-        "type": 3,
-        "blog": true,
-        "tags": [
-          "typescript"
-        ]
-      },
-      "regularPath": "/blog/other/typescript.html",
-      "relativePath": "blog/other/typescript.md",
-      "key": "v-50716356",
-      "path": "/blog/other/typescript.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "在vue3里安装typescript(zhihui--->test--->ts)",
-          "slug": "在vue3里安装typescript-zhihui-test-ts"
         }
       ]
     },
@@ -430,86 +519,25 @@ export const siteData = {
       "path": "/mine/"
     },
     {
-      "title": "深入理解 JavaScript 原型22",
+      "title": "typescript",
       "frontmatter": {
-        "title": "深入理解 JavaScript 原型22",
-        "date": "2017-11-14T00:00:00.000Z",
-        "type": 2,
+        "title": "typescript",
+        "date": "2020-02-24T00:00:00.000Z",
+        "type": 3,
         "blog": true,
-        "excerpt": "原型，作为前端开发者，或多或少都有听说。你可能一直想了解它，但是由于各种原因还没有了解，现在就跟随我来一起探索它吧。本文将由浅入深，一点一点揭开 JavaScript 原型的神秘面纱。（需要了解基本的 JavaScript 对象知识）",
         "tags": [
-          "JavaScript"
+          "typescript"
         ]
       },
-      "regularPath": "/blog/Animate/animate1.html",
-      "relativePath": "blog/Animate/animate1.md",
-      "key": "v-af85bd54",
-      "path": "/blog/Animate/animate1.html",
+      "regularPath": "/blog/other/typescript.html",
+      "relativePath": "blog/other/typescript.md",
+      "key": "v-50716356",
+      "path": "/blog/other/typescript.html",
       "headers": [
         {
           "level": 2,
-          "title": "原型",
-          "slug": "原型"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型是什么？",
-          "slug": "_1-原型是什么"
-        },
-        {
-          "level": 3,
-          "title": "2. constructor 与 [[Prototype]]",
-          "slug": "_2-constructor-与-prototype"
-        },
-        {
-          "level": 3,
-          "title": "3. 对象实例与原型",
-          "slug": "_3-对象实例与原型"
-        },
-        {
-          "level": 2,
-          "title": "原型链",
-          "slug": "原型链"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型的原型",
-          "slug": "_1-原型的原型"
-        },
-        {
-          "level": 3,
-          "title": "2. 原型链",
-          "slug": "_2-原型链"
-        },
-        {
-          "level": 2,
-          "title": "继承",
-          "slug": "继承"
-        },
-        {
-          "level": 3,
-          "title": "1. 原型链实现",
-          "slug": "_1-原型链实现"
-        },
-        {
-          "level": 3,
-          "title": "2. 借用构造函数",
-          "slug": "_2-借用构造函数"
-        },
-        {
-          "level": 3,
-          "title": "3. 组合继承",
-          "slug": "_3-组合继承"
-        },
-        {
-          "level": 3,
-          "title": "4. 寄生组合式继承",
-          "slug": "_4-寄生组合式继承"
-        },
-        {
-          "level": 3,
-          "title": "参考",
-          "slug": "参考"
+          "title": "在vue3里安装typescript(zhihui--->test--->ts)",
+          "slug": "在vue3里安装typescript-zhihui-test-ts"
         }
       ]
     }

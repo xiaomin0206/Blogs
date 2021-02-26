@@ -169,7 +169,8 @@
 	.cont_wrap_right{
 		height: calc(100vh - 150px);
 		overflow-y: scroll;
-		padding: 20px;
+		padding: 10px;
+		/* padding-top: 0; */
 		box-sizing: border-box;
 	}
 	.cont_wrap_right ul li{
