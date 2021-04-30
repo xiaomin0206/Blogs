@@ -18,7 +18,7 @@ tags:
 
 **3. uni-app项目，里面已经包含uni的组件，无需引入，安装，直接使用**
 
-
+[打包为安卓](https://blog.csdn.net/ming19951224/article/details/108707630)
 
 
 

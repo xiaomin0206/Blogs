@@ -90,6 +90,84 @@ console.log(str.split(" ",3),str,str.split(" "))////["How", "are", "you"] "How a
 ```
 var arra=['测试一','测试二','测试三']
 console.log(arra.splice(1,2),arra)//// ["测试二", "测试三"] ["测试一"]
+
+
+
+
+
+		// arr.push(5)////////从后面添加
+			// arr.pop()/////从后面删除
+			// arr.unshift(0)/////前面添加
+			// arr.shift()///前面删除
+			// array=arr.filter((item)=>{
+			// 	return item>3
+			// })//////过滤
+			// arr.fill(0,1,3)////使用一个固定值来填充数组,(值，开始，结束)（开始和结束都是从位置开始的，而不是下标，且不包括开始位置）
+			// arr.reverse()/////反转数组的元素顺序
+			// arr.some(item=>item>3)//////数组中如果存在符合条件的将会返回true
+			// arr.indexOf(5)///////搜索数组中的元素，并返回它所在的位置,不存在返回-1
+			// arr.lastIndexOf(2)///////搜索数组中的元素，并返回它最后一次出现的位置,不存在返回-1
+			// arr.toString()///////数组转化为以逗号隔开的字符串，同join()或者join(',')
+			// arr.sort()////从小到大排序
+			// arr=arr.map((item)=>{
+			// 	return item*2
+			// })//////对每个元素进行处理，并返回新的数组
+			// arr.forEach((item)=>{
+			// 	sum+=Number(item)
+			// })///////遍历
+			// arr.every((item)=>{
+			// 	return item>0
+			// })///////检测数值元素的每个元素是否都符合条件。
+			// arr.reduceRight((sum,value)=>{
+			// 	return value+sum
+			// })////////////将数组元素计算为一个值（从右到左）同reduce
+			// arr.reduce((sum,value)=>{
+			// 	console.log(sum,value)
+			// 	return value+sum
+			// })
+			// arr.splice(3,1,8)///////向原数组删除或添加元素，开始的下标（从该值删除，在该值前面加入数值），长度，补入的数值，，，，，，会改变原来的数组
+			// arr.slice(2,3)//从 start 到 end （不包括该元素）,返回截取的数组，且不改变原数组
+			// arr.includes(2,5)/////数组 arr 是否包含2,,,,,5为从垓下标开始搜索，默认从0开始，超过或等于长度时返回false，负值默认为从0开始
+			// num=arr.find((item)=>{
+			// 	return item>9
+			// })///////////获取数组中满足条件的第一个元素
+			
+			// num=arr.findIndex((item)=>{
+			// 	return item>3
+			// })///////////获取数组中满足条件的第一个元素的下标，不满足的返回-1
+			 // arr.copyWithin(2,2,8)///////该下标元素被替换，替换的开始下标，替换的结束下标（不包括垓下标）
+			
+			// Object.assign(this.$data.shijian,this.$options.data().shijian)//////////恢复data的某些数据为初始化
+			
+			
+			// var obj1 = {
+			//   a:1
+			// };
+			// var obj2 ={
+			//   b:2
+			// };
+			// var obj = {};
+			// var o = Object.assign(obj, obj1,obj2)
+			console.log(o,obj,'21')
+			
+			
+			
+			
+			
+			
+			// String方法
+			var str="Hello world!"
+			// str.charAt(1)////返回在指定位置的字符
+			// str.substr(3,4)//从起始索引号提取字符串中指定数目的字符,下标，长度
+			//str.split(',',4) 方法用于把一个字符串分割成字符串数组,分隔类型，分隔之后显示的长度
+			// str.replace(/Hello/,'world')///////一些字符替换另一些字符,被替换掉的字符，将要替换成的字符，，，返回新的字符串，不改变原字符串
+
+
+
+
+
+
+
 ```
 
 

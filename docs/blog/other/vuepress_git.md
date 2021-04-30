@@ -16,10 +16,13 @@ git add .
 git commit -m '添加Blogs'
 git push -f origin master
 
-git checkout gh-pages(切换到上线分支)
-git add -A
-git commit -m 'deploy'
-git push( git push -f origin gh-pages)
+git checkout gh-pages(切换到线上分支)
+1. 先删除 除了.git文件夹 ， node_module文件夹 ， docs文件夹， .gitignore之外的文件
+2. 再把docs/.vuepress/dist文件夹下的所有文件剪切到根目录
+3. 再删除docs文件夹
+4. git add -A
+5. git commit -m 'deploy'
+6. git push( git push -f origin gh-pages)
 
 git log（查看日志）
 git branch -a（查看所有分支）
